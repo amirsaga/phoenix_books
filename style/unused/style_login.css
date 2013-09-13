@@ -1,0 +1,48 @@
+
+
+
+.login_btn {
+	text-decoration:none;
+	text-shadow:1px 1px 0 #000;
+	-moz-text-shadow:1px 1px 0 #000;
+	-webkit-text-shadow:1px 1px 0 #000;
+	color:#fff;
+	font-weight:bold;
+	font-size:13px;
+	margin-top:11px;
+	background:#3d3d3d;
+	float:right;
+	height:32px;
+}
+.login_btn:hover {
+	background:#656565;
+}
+.login_btn span {
+	color:#fff;
+	float:left;
+	padding:0 10px 0 10px;
+	text-align:center;
+	margin-top: 8px;
+}
+.triangle {
+	float:left;
+	width:0px;
+	height:0px;
+	margin:14px 9px 0 0;
+	border-left:5px solid transparent;
+	/* left arrow slant */
+	border-right:5px solid transparent;
+	/* right arrow slant */
+	border-top:5px solid #fff;
+	/* bottom,add background color here */
+	font-size:0px;
+	line-height:0px;
+}
+
+#login_box {
+	display:none;
+	position:absolute;
+	width:236px;
+	margin:2px 0 0 732px;
+}
+
